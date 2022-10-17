@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "prideLand_jsm"
+    "name": "prideland_sleekcharly"
   },
   "api": {
-    "projectId": "vgpjzwyl",
+    "projectId": "yeuv35c4",
     "dataset": "production"
   },
   "plugins": [
