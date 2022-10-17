@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "prideland_sleekcharly"
-  },
   "api": {
-    "projectId": "yeuv35c4",
+    "projectId": "xr23rsw7",
     "dataset": "production"
+  },
+  "project": {
+    "name": "prideLand-app"
   },
   "plugins": [
     "@sanity/base",
