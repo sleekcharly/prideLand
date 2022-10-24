@@ -22,8 +22,6 @@ const Pin = ({ pin }) => {
     (item) => item?.postedBy?._id === user?.googleId,
   )?.length;
 
-  console.log(save);
-
   const savePin = (id) => {
     if (!alreadySaved) {
       client
@@ -57,7 +55,7 @@ const Pin = ({ pin }) => {
       <div
         onMouseEnter={() => setPostHovered(true)}
         onMouseLeave={() => setPostHovered(false)}
-        onClick={() => navigate(`pin-detail/${_id}`)}
+        onClick={() => navigate(`/pin-detail/${_id}`)}
         className="relative cursor-zoom-in w-auto hover:shadow-lg rounded-lg overflow-hidden transition-all duration-500 ease-n-out"
       >
         <img
