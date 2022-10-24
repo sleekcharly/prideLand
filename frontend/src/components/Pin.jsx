@@ -114,7 +114,7 @@ const Pin = ({ pin }) => {
                 </a>
               )}
 
-              {postedBy?._id === user.googleId && (
+              {postedBy?._id === user?.googleId && (
                 <button
                   type="button"
                   onClick={(e) => {

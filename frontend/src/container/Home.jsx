@@ -45,11 +45,32 @@ const Home = () => {
             className="cursor-pointer"
             onClick={() => setToggleSidebar(true)}
           />
-          <Link to="/">
-            <img src={logo} alt="logo" className="w-28" />
+          <Link to="/" className="flex items-center space-x-1">
+            <img src={logo} alt="logo" className="w-10" />
+            <h1
+              className="uppercase font-bold text-lg"
+              style={{
+                color: 'transparent',
+                fontFamily: 'Arial, helvetica, sans-serif',
+                WebkitTextStrokeWidth: '1px',
+                WebkitTextStrokeColor: 'black',
+              }}
+            >
+              Pride
+              <span
+                style={{
+                  color: 'transparent',
+                  fontFamily: 'Arial, helvetica, sans-serif',
+                  WebkitTextStrokeWidth: '1px',
+                  WebkitTextStrokeColor: 'gray',
+                }}
+              >
+                Land
+              </span>
+            </h1>
           </Link>
           <Link to={`user-profile/${user?._id}`}>
-            <img src={user?.image} alt="logo" className="w-28" />
+            <img src={user?.image} alt="logo" className="w-14 rounded-md" />
           </Link>
         </div>
 

@@ -4,7 +4,7 @@ import { gapi } from 'gapi-script';
 import { useNavigate } from 'react-router-dom';
 import { FcGoogle } from 'react-icons/fc';
 import shareVideo from '../assets/share.mp4';
-import logo from '../assets/logowhite.png';
+import logo from '../assets/logo2.png';
 import { client } from '../client';
 
 const Login = () => {
@@ -58,8 +58,29 @@ const Login = () => {
         />
 
         <div className="absolute flex flex-col justify-center items-center top-0 right-0 left-0 bottom-0 bg-blackOverlay">
-          <div className="p-5">
-            <img src={logo} width="130px" alt="logo" />
+          <div className="flex px-5 gap-2 my-6 pt-1 items-center">
+            <img src={logo} alt="logo" className="w-20" />
+            <h1
+              className="uppercase font-bold text-3xl lg:text-4xl"
+              style={{
+                color: 'transparent',
+                fontFamily: 'Arial, helvetica, sans-serif',
+                WebkitTextStrokeWidth: '2px',
+                WebkitTextStrokeColor: 'white',
+              }}
+            >
+              Pride
+              <span
+                style={{
+                  color: 'transparent',
+                  fontFamily: 'Arial, helvetica, sans-serif',
+                  WebkitTextStrokeWidth: '2px',
+                  WebkitTextStrokeColor: 'cyan',
+                }}
+              >
+                Land
+              </span>
+            </h1>
           </div>
 
           <div className="shadow-2xl">

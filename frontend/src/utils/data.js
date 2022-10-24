@@ -10,6 +10,11 @@ export const categories = [
       'https://i.pinimg.com/236x/25/14/29/251429345940a47490cc3d47dfe0a8eb.jpg',
   },
   {
+    name: 'fashion',
+    image:
+      'https://www.nicepng.com/png/detail/802-8027356_fashion-clipart-fashion-icon-fashion-icon-png.png',
+  },
+  {
     name: 'wallpaper',
     image:
       'https://i.pinimg.com/236x/03/48/b6/0348b65919fcbe1e4f559dc4feb0ee13.jpg',
@@ -18,6 +23,11 @@ export const categories = [
     name: 'websites',
     image:
       'https://i.pinimg.com/750x/66/b1/29/66b1296d36598122e6a4c5452b5a7149.jpg',
+  },
+  {
+    name: 'sports',
+    image:
+      'https://cdn.icon-icons.com/icons2/12/PNG/256/playsoccersports_juegos_futbo_1762.png',
   },
   {
     name: 'photo',
@@ -59,6 +69,7 @@ export const categories = [
     image:
       'https://i.pinimg.com/236x/1b/c8/30/1bc83077e363db1a394bf6a64b071e9f.jpg',
   },
+
   {
     name: 'others',
     image:

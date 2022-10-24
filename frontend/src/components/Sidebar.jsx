@@ -20,10 +20,31 @@ const Sidebar = ({ user, closeToggle }) => {
       <div className="flex flex-col">
         <Link
           to="/"
-          className="flex px-5 gap-2 my-6 pt-1 w-190 items-center"
+          className="flex px-5 gap-2 my-6 pt-1 items-center"
           onClick={handleCloseSidebar}
         >
-          <img src={logo} alt="logo" className="w-full" />
+          <img src={logo} alt="logo" className="w-10" />
+          <h1
+            className="uppercase font-bold text-lg"
+            style={{
+              color: 'transparent',
+              fontFamily: 'Arial, helvetica, sans-serif',
+              WebkitTextStrokeWidth: '1px',
+              WebkitTextStrokeColor: 'black',
+            }}
+          >
+            Pride
+            <span
+              style={{
+                color: 'transparent',
+                fontFamily: 'Arial, helvetica, sans-serif',
+                WebkitTextStrokeWidth: '1px',
+                WebkitTextStrokeColor: 'gray',
+              }}
+            >
+              Land
+            </span>
+          </h1>
         </Link>
 
         <div className="flex flex-col gap-5">
