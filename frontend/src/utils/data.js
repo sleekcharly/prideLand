@@ -15,6 +15,11 @@ export const categories = [
       'https://www.nicepng.com/png/detail/802-8027356_fashion-clipart-fashion-icon-fashion-icon-png.png',
   },
   {
+    name: 'people',
+    image:
+      'https://m.media-amazon.com/images/S/amzn-author-media-prod/k9gtp50b3kj06bikpg230de34c._SY300_.jpg',
+  },
+  {
     name: 'wallpaper',
     image:
       'https://i.pinimg.com/236x/03/48/b6/0348b65919fcbe1e4f559dc4feb0ee13.jpg',
@@ -30,7 +35,7 @@ export const categories = [
       'https://cdn.icon-icons.com/icons2/12/PNG/256/playsoccersports_juegos_futbo_1762.png',
   },
   {
-    name: 'photo',
+    name: 'photography',
     image:
       'https://i.pinimg.com/236x/72/8c/b4/728cb43f48ca762a75da645c121e5c57.jpg',
   },

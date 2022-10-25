@@ -28,6 +28,7 @@ const CreatePin = ({ user }) => {
       selectedFile.type === 'image/svg' ||
       selectedFile.type === 'image/jpeg' ||
       selectedFile.type === 'image/gif' ||
+      selectedFile.type === 'image/webp' ||
       selectedFile.type === 'image/tiff'
     ) {
       setWrongImageType(false);
